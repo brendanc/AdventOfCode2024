@@ -13,7 +13,6 @@
         "packagesPath": "/Users/brendan/.nuget/packages/",
         "outputPath": "/Users/brendan/dev/AdventOfCode2024/AdventOfCode/obj/",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/brendan/.nuget/NuGet/NuGet.Config"
         ],
