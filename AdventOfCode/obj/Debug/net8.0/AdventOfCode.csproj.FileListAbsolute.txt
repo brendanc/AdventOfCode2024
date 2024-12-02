@@ -1,0 +1,17 @@
+/Users/brendan/dev/AdventOfCode2024/AdventOfCode/bin/Debug/net8.0/AdventOfCode
+/Users/brendan/dev/AdventOfCode2024/AdventOfCode/bin/Debug/net8.0/AdventOfCode.deps.json
+/Users/brendan/dev/AdventOfCode2024/AdventOfCode/bin/Debug/net8.0/AdventOfCode.runtimeconfig.json
+/Users/brendan/dev/AdventOfCode2024/AdventOfCode/bin/Debug/net8.0/AdventOfCode.dll
+/Users/brendan/dev/AdventOfCode2024/AdventOfCode/bin/Debug/net8.0/AdventOfCode.pdb
+/Users/brendan/dev/AdventOfCode2024/AdventOfCode/bin/Debug/net8.0/ReadLine.dll
+/Users/brendan/dev/AdventOfCode2024/AdventOfCode/obj/Debug/net8.0/AdventOfCode.csproj.AssemblyReference.cache
+/Users/brendan/dev/AdventOfCode2024/AdventOfCode/obj/Debug/net8.0/AdventOfCode.GeneratedMSBuildEditorConfig.editorconfig
+/Users/brendan/dev/AdventOfCode2024/AdventOfCode/obj/Debug/net8.0/AdventOfCode.AssemblyInfoInputs.cache
+/Users/brendan/dev/AdventOfCode2024/AdventOfCode/obj/Debug/net8.0/AdventOfCode.AssemblyInfo.cs
+/Users/brendan/dev/AdventOfCode2024/AdventOfCode/obj/Debug/net8.0/AdventOfCode.csproj.CoreCompileInputs.cache
+/Users/brendan/dev/AdventOfCode2024/AdventOfCode/obj/Debug/net8.0/AdventOf.A6D28427.Up2Date
+/Users/brendan/dev/AdventOfCode2024/AdventOfCode/obj/Debug/net8.0/AdventOfCode.dll
+/Users/brendan/dev/AdventOfCode2024/AdventOfCode/obj/Debug/net8.0/refint/AdventOfCode.dll
+/Users/brendan/dev/AdventOfCode2024/AdventOfCode/obj/Debug/net8.0/AdventOfCode.pdb
+/Users/brendan/dev/AdventOfCode2024/AdventOfCode/obj/Debug/net8.0/AdventOfCode.genruntimeconfig.cache
+/Users/brendan/dev/AdventOfCode2024/AdventOfCode/obj/Debug/net8.0/ref/AdventOfCode.dll

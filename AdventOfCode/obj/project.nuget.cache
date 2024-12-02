@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UpulzSZifuM=",
+  "success": true,
+  "projectFilePath": "/Users/brendan/dev/AdventOfCode2024/AdventOfCode/AdventOfCode.csproj",
+  "expectedPackageFiles": [
+    "/Users/brendan/.nuget/packages/readline/2.0.1/readline.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
