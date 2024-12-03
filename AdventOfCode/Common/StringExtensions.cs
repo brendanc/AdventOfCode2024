@@ -56,6 +56,27 @@ namespace AdventOfCode.Common;
             return int.Parse(s);
         }
 
+        /// <summary>
+        /// Extract numbers from any string into an array
+        /// eg: mul(123,456) => [123,456]
+        /// </summary>
+        /// <param name="text"></param>
+        /// <returns></returns>
+        public static int[] ExtractNumbersFromText(this string text)
+        {
+            var numberStrings = Regex.Matches(text, @"\d+")
+                .Cast<Match>()
+                .Select(m => m.Value)
+                .ToArray();
+
+            var numbers = new int[numberStrings.Length];
+            for (int i = 0; i < numberStrings.Length; i++)
+            {
+                numbers[i] = int.Parse(numberStrings[i]);
+            }
+
+            return numbers;
+        }
 
         /// <summary>
         /// Detects if the string is an integer
