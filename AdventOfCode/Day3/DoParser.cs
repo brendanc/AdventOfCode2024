@@ -40,12 +40,6 @@ public class DoParser
         {
             blocks.Add(input.Substring(pair.Item1,pair.Item2 - pair.Item1));
         }
-
-        var sb = new StringBuilder();
-        foreach (var b in blocks)
-        {
-            sb.AppendLine(b);
-        }
         
         return blocks.Where(b => b.Trim().StartsWith("do()")).ToList();
     }
