@@ -45,7 +45,7 @@ public class InstructionValidator
         {
             return invalidInstruction;
         }
-        // instructions aren't valid - shuffle and try again!
+
         var pages = invalidInstruction.Split(',').Select(int.Parse).ToList();
         foreach (var rule in RulePairs)
         {
