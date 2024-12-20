@@ -7,7 +7,7 @@ public class Program
     {
         Console.WriteLine("Welcome to my Advent of Code project!");
         //   var taskInput = ReadLine.Read("Which task would you like to run?");
-        var taskInput = "7.2";
+        var taskInput = "8.1";
         var resolvedTask = TaskResolver.ResolveTask(taskInput);
 
         var sw = new Stopwatch();

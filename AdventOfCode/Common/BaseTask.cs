@@ -19,6 +19,16 @@ public abstract class BaseTask : IAdventOfCodeTask
         }
     }
 
+    protected virtual string SampleFileName
+    {
+        get
+        {
+            var t = this.GetType().ToString();
+            var last = t.LastIndexOf('.');
+            return t.Substring(0, last) + ".Sample.txt";
+        } 
+    }
+
     protected IEnumerable<string> GetInput()
     {
         return InputReader.ReadInputAsLines(InputFileName);
@@ -27,5 +37,15 @@ public abstract class BaseTask : IAdventOfCodeTask
     protected string GetInputAsSingleString()
     {
         return InputReader.ReadInput(InputFileName);
+    }
+    
+    protected IEnumerable<string> GetSample()
+    {
+        return InputReader.ReadInputAsLines(SampleFileName);
+    }
+
+    protected string GetSampleAsSingleString()
+    {
+        return InputReader.ReadInput(SampleFileName);
     }
 }
